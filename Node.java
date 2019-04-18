@@ -1,20 +1,22 @@
+package String;
+
 
 public class Node {
 
-	private int data;
+	private String data;
 	private Node link;
 
-	public Node(int data, Node link) {
+	public Node(String data, Node link) {
 		super();
 		this.data = data;
 		this.link = link;
 	}
 
-	public int getData() {
+	public String getData() {
 		return data;
 	}
 
-	public void setData(int data) {
+	public void setData(String data) {
 		this.data = data;
 	}
 
@@ -28,3 +30,4 @@ public class Node {
 
 	
 }
+

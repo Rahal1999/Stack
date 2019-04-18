@@ -1,3 +1,4 @@
+package String;
 
 public class Stack {
 
@@ -5,13 +6,13 @@ public class Stack {
 	private int size;
 	
 
-	public void push(int data) {
+	public void push(String data) {
 		Node newNode = new Node(data,head);// to create a new node
 		head = newNode;// inserts at head
 		size++;
 	}
 	
-	public int pop() {
+	public String pop() {
 		if (empty()) {
 			try {
 				throw new IllegalOperationException("Stack is empty!!!");
@@ -32,3 +33,4 @@ public class Stack {
 	
 	
 }
+
